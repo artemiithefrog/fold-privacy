@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Contact Fold support and learn how to set up fold counting, track time open, and add Fold widgets on iPhone Duo.">
+  <meta name="referrer" content="no-referrer">
+  <title>Support · Fold</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="./" aria-label="Fold home">Fold</a>
+    <nav aria-label="Main"><a href="./">Privacy</a><a href="support.html" aria-current="page">Support</a></nav>
+  </header>
+  <main id="main">
+    <p class="eyebrow">A little help with your folds.</p>
+    <h1>Fold Support</h1>
+    <p class="intro">Questions, feedback, or a fold that did not count?</p>
+    <aside class="summary">
+      <strong>Contact Artemii Malyshev</strong>
+      <p><a class="email" href="mailto:artemiithefrog95@icloud.com?subject=Fold%20Support">artemiithefrog95@icloud.com</a></p>
+      <p>For a bug report, include your iOS version, Fold version, and what happened. Screenshots are optional; please remove any private information first.</p>
+    </aside>
+    <section>
+      <h2>Set up fold counting</h2>
+      <p>Fold is made for iPhone Duo. Automatic counting uses a Shortcuts automation and requires iOS 27.2 or later.</p>
+      <ol>
+        <li>In Shortcuts, tap +, then Edit. Find Automation → Display → Opened or Closed. Select Closed only.</li>
+        <li>Add the action Fold → Record Fold.</li>
+        <li>Choose Run Immediately if prompted, then save.</li>
+        <li>Fold and unfold your phone, then open Fold. One new fold should appear.</li>
+      </ol>
+      <p>You can also start from Set Up Counting in Fold, which opens Shortcuts for you.</p>
+    </section>
+    <section>
+      <h2>Track time open</h2>
+      <p>Make a second automation the same way: Display → Opened or Closed, select Opened only, and add Fold → Record Open with Run Immediately. Time open is measured from each opening to the next closing. It does not change your fold count.</p>
+    </section>
+    <section>
+      <h2>Missing or extra folds</h2>
+      <p>Use exactly one automation for Closed and one for Opened. Duplicate automations, or running Record Fold by hand, add extra entries. Folds from before setup cannot be recovered, and folds are not recorded while an automation is turned off or if iOS skips a run. After a restart, unlock your phone once so Fold can save new entries.</p>
+    </section>
+    <section>
+      <h2>Add a widget</h2>
+      <p>Touch and hold your Home Screen, tap Edit → Add Widget, and search for Fold. Small shows your count; Medium adds a week of activity. Lock Screen widgets are available while customizing your Lock Screen. iOS schedules widget updates, so a new fold may take a little time to appear.</p>
+    </section>
+    <section>
+      <h2>Delete your history</h2>
+      <p>Your history is stored only on your device. See the <a href="./#retention">Privacy Policy</a> for removing all app data and managing backups.</p>
+    </section>
+    <section>
+      <h2>Beta feedback</h2>
+      <p>If you installed Fold through TestFlight, you can also use Send Beta Feedback in TestFlight. Feedback is optional. Apple's TestFlight service collects beta diagnostics as explained in our <a href="./#apple">Privacy Policy</a>.</p>
+    </section>
+  </main>
+  <footer>© 2026 Artemii Malyshev · <a href="./">Privacy Policy</a></footer>
+</body>
+</html>
